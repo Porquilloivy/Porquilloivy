@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>MY PROFILE</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+
+        body {
+            background-color: #5a5757;
+            
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 20vw);
+            grid-template-rows: repeat(5, 20vh);
+            gap: 5px;
+        }
+
+        .div1 {
+            background-color: gray;
+        }
+
+        .div2 {
+            background-color: rgb(126, 54, 214);
+        }
+
+        .div3 {
+            background-color: pink;
+        }
+
+        .div4 {
+            background-color: yellow;
+        }
+
+        .div5 {
+            background-color: rgb(228, 165, 18);
+        }
+        
+        /* media query */
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {
+            .div1{
+                grid-column: 1/6;
+                grid-row: 1/2;
+            }
+            .div2{
+                grid-column: 1/6;
+                grid-row: 5/6;
+            }
+            .div3{
+                grid-row: 2/3;
+                grid-column: 1/6;
+            }
+            .div4{
+                grid-column: 1/6;
+                grid-row: 3/4;
+            }
+            .div5{
+                grid-column: 1/6;
+                grid-row: 4/5;
+            }
+        }
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {
+            .div1{
+                grid-column: 1/6;
+                grid-row: 1/2;
+            }
+            .div2{
+                grid-column: 1/3;
+                grid-row: 2/3;
+            }
+            .div3{
+                grid-row: 2/3;
+                grid-column: 3/6;
+            }
+            .div4{
+                grid-column: 1/3;
+                grid-row: 3/6;
+            }
+            .div5{
+                grid-column: 3/6;
+                grid-row: 3/6;
+            }
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            .div1{
+            background-color: aqua;
+            grid-column: 1/6;
+        }
+
+        .div2{
+            background-color: rgb(67, 46, 230);
+            grid-row: 2/5;
+            grid-column: 1/2;
+            z-index: 1;
+        }
+
+        .div3{
+            background-color: rgb(246, 59, 162);
+            grid-column: 2/5;
+            grid-row: 2/5;
+        }
+        .div4{
+            background-color: rgb(103, 234, 119);
+            grid-row: 2/5;
+            grid-column: 5/6;
+        }
+        .div5{
+            background-color: rgb(100, 100, 59);
+            grid-column: 1/6;
+            grid-row: 5/6;
+        }
+        }
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">
+        <img src="content://com.android.externalstorage.documents/document/primary%3Amy%20pic%2Fdels.jpg"height="150px" width="200px" align="1left/>""></div>
+        <div class="div2"> <h2>EDUCATIONAL BACKGROUND </h2>
+        <p><strong>Primary School:</strong>Molobolo Elementary school</p>
+        <p><strong>Secondary School:</strong>Molobolo National High school</p>
+        Quirico G. Manzano Memorial Senior High School</p>
+        <p><strong>Tertiary School:</strong>Central Philippines State University</p></div>
+        <div class="div3"><h2>Name:PORQUILLO IVY D. </h2>
+        <p><strong>Birthday:</strong> September 08, 2001</p>
+        <p><strong>Gender:</strong>Female</p>
+        <p><strong>Civil Status:</strong>Single</p>
+        <p><strong>Address:</strong> Brgy. Molobolo Cauayan, Negros Occidental</p>
+       <p><strong>Religion:</strong> Roman Catholic</p> 
+       <p><strong>Contact No.</strong>09615902085</p>
+       <p><strong>Email:</strong>porquilloivy14@gmail</p>
+       </div>
+        <div class="div4"><p><h2>INTRO,PLAN & GOAL</h2>
+        Im not creative, yet hard working and willing to learn Infomation Technology student anticipating graduate 2024-2025. Having this course makes me realize that without the programmer or other job related to computer our life is not happy as now. Thats why my goal for now is to become a programmer, i know it takes time for me to reach it yet im willing to wait. I admit that my knowledge is not totally like programmer mind yet there is no possible to the person who have dream.</p></div>
+        <div class="div5"><p><h2>SKILLS & HOBBIES</h2>
+Play Mobile Games<br>
+Watching Cdrama or Kdrama<br
+Reading Wattpad<br>
+Playing Volleyball</p></div>
+    </div>
+</body>
+
+</html>
